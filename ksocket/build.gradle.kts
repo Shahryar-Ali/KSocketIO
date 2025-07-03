@@ -1,5 +1,3 @@
-import com.vanniktech.maven.publish.SonatypeHost
-import org.jetbrains.kotlin.gradle.ExperimentalKotlinGradlePluginApi
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
 plugins {
@@ -31,7 +29,7 @@ kotlin {
     }
 
     cocoapods {
-        summary = "Some description for the Shared Module"
+        summary = "Kotlin Multiplatform wrapper for Socket.IO client"
         homepage = "Link to the Shared Module homepage"
         version = "1.0"
         ios.deploymentTarget = "15.6"
@@ -40,8 +38,9 @@ kotlin {
             baseName = "kSocket"
             isStatic = true
         }
-        pod("Socket.IO-Client-Swift") {
+        pod("Socket.IO-Client-Swift"){
             version = libs.versions.socketIOPod.get()
+            moduleName = "SocketIO"
             extraOpts += listOf("-compiler-option", "-fmodules")
         }
     }
@@ -55,14 +54,11 @@ kotlin {
         commonMain.dependencies {
             implementation(compose.runtime)
             implementation(compose.foundation)
-            implementation(compose.material3)
-            implementation(compose.materialIconsExtended)
-            implementation(compose.ui)
+            //implementation(compose.material3)
+            //implementation(compose.materialIconsExtended)
+            //implementation(compose.ui)
             implementation(compose.components.resources)
-            implementation(compose.components.uiToolingPreview)
-        }
-        iosMain.dependencies {
-
+            //implementation(compose.components.uiToolingPreview)
         }
     }
 }
