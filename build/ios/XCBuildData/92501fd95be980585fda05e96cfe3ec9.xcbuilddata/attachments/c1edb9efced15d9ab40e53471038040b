@@ -1,0 +1,38 @@
+{
+  "" : {
+    "diagnostics" : "/Users/shahryarali/MobileProjects/CrossPlatform/KMP/CoParentsConnect/build/ios/iosApp.build/Debug-iphonesimulator/iosApp.build/Objects-normal/x86_64/iosApp-master.dia",
+    "emit-module-dependencies" : "/Users/shahryarali/MobileProjects/CrossPlatform/KMP/CoParentsConnect/build/ios/iosApp.build/Debug-iphonesimulator/iosApp.build/Objects-normal/x86_64/iosApp-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/shahryarali/MobileProjects/CrossPlatform/KMP/CoParentsConnect/build/ios/iosApp.build/Debug-iphonesimulator/iosApp.build/Objects-normal/x86_64/iosApp-master-emit-module.dia",
+    "swift-dependencies" : "/Users/shahryarali/MobileProjects/CrossPlatform/KMP/CoParentsConnect/build/ios/iosApp.build/Debug-iphonesimulator/iosApp.build/Objects-normal/x86_64/iosApp-master.swiftdeps"
+  },
+  "/Users/shahryarali/MobileProjects/CrossPlatform/KMP/CoParentsConnect/build/ios/iosApp.build/Debug-iphonesimulator/iosApp.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/shahryarali/MobileProjects/CrossPlatform/KMP/CoParentsConnect/build/ios/iosApp.build/Debug-iphonesimulator/iosApp.build/Objects-normal/x86_64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/shahryarali/MobileProjects/CrossPlatform/KMP/CoParentsConnect/build/ios/iosApp.build/Debug-iphonesimulator/iosApp.build/Objects-normal/x86_64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/shahryarali/MobileProjects/CrossPlatform/KMP/CoParentsConnect/build/ios/iosApp.build/Debug-iphonesimulator/iosApp.build/Objects-normal/x86_64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/iosApp.build/Debug-iphonesimulator/iosApp.build/Objects-normal/x86_64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/shahryarali/MobileProjects/CrossPlatform/KMP/CoParentsConnect/build/ios/iosApp.build/Debug-iphonesimulator/iosApp.build/Objects-normal/x86_64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/shahryarali/MobileProjects/CrossPlatform/KMP/CoParentsConnect/build/ios/iosApp.build/Debug-iphonesimulator/iosApp.build/Objects-normal/x86_64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/shahryarali/MobileProjects/CrossPlatform/KMP/CoParentsConnect/build/ios/iosApp.build/Debug-iphonesimulator/iosApp.build/Objects-normal/x86_64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/shahryarali/MobileProjects/CrossPlatform/KMP/CoParentsConnect/build/ios/iosApp.build/Debug-iphonesimulator/iosApp.build/Objects-normal/x86_64/GeneratedAssetSymbols~partial.swiftmodule"
+  },
+  "/Users/shahryarali/MobileProjects/CrossPlatform/KMP/CoParentsConnect/iosApp/iosApp/ContentView.swift" : {
+    "const-values" : "/Users/shahryarali/MobileProjects/CrossPlatform/KMP/CoParentsConnect/build/ios/iosApp.build/Debug-iphonesimulator/iosApp.build/Objects-normal/x86_64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/shahryarali/MobileProjects/CrossPlatform/KMP/CoParentsConnect/build/ios/iosApp.build/Debug-iphonesimulator/iosApp.build/Objects-normal/x86_64/ContentView.d",
+    "diagnostics" : "/Users/shahryarali/MobileProjects/CrossPlatform/KMP/CoParentsConnect/build/ios/iosApp.build/Debug-iphonesimulator/iosApp.build/Objects-normal/x86_64/ContentView.dia",
+    "index-unit-output-path" : "/iosApp.build/Debug-iphonesimulator/iosApp.build/Objects-normal/x86_64/ContentView.o",
+    "llvm-bc" : "/Users/shahryarali/MobileProjects/CrossPlatform/KMP/CoParentsConnect/build/ios/iosApp.build/Debug-iphonesimulator/iosApp.build/Objects-normal/x86_64/ContentView.bc",
+    "object" : "/Users/shahryarali/MobileProjects/CrossPlatform/KMP/CoParentsConnect/build/ios/iosApp.build/Debug-iphonesimulator/iosApp.build/Objects-normal/x86_64/ContentView.o",
+    "swift-dependencies" : "/Users/shahryarali/MobileProjects/CrossPlatform/KMP/CoParentsConnect/build/ios/iosApp.build/Debug-iphonesimulator/iosApp.build/Objects-normal/x86_64/ContentView.swiftdeps",
+    "swiftmodule" : "/Users/shahryarali/MobileProjects/CrossPlatform/KMP/CoParentsConnect/build/ios/iosApp.build/Debug-iphonesimulator/iosApp.build/Objects-normal/x86_64/ContentView~partial.swiftmodule"
+  },
+  "/Users/shahryarali/MobileProjects/CrossPlatform/KMP/CoParentsConnect/iosApp/iosApp/iOSApp.swift" : {
+    "const-values" : "/Users/shahryarali/MobileProjects/CrossPlatform/KMP/CoParentsConnect/build/ios/iosApp.build/Debug-iphonesimulator/iosApp.build/Objects-normal/x86_64/iOSApp.swiftconstvalues",
+    "dependencies" : "/Users/shahryarali/MobileProjects/CrossPlatform/KMP/CoParentsConnect/build/ios/iosApp.build/Debug-iphonesimulator/iosApp.build/Objects-normal/x86_64/iOSApp.d",
+    "diagnostics" : "/Users/shahryarali/MobileProjects/CrossPlatform/KMP/CoParentsConnect/build/ios/iosApp.build/Debug-iphonesimulator/iosApp.build/Objects-normal/x86_64/iOSApp.dia",
+    "index-unit-output-path" : "/iosApp.build/Debug-iphonesimulator/iosApp.build/Objects-normal/x86_64/iOSApp.o",
+    "llvm-bc" : "/Users/shahryarali/MobileProjects/CrossPlatform/KMP/CoParentsConnect/build/ios/iosApp.build/Debug-iphonesimulator/iosApp.build/Objects-normal/x86_64/iOSApp.bc",
+    "object" : "/Users/shahryarali/MobileProjects/CrossPlatform/KMP/CoParentsConnect/build/ios/iosApp.build/Debug-iphonesimulator/iosApp.build/Objects-normal/x86_64/iOSApp.o",
+    "swift-dependencies" : "/Users/shahryarali/MobileProjects/CrossPlatform/KMP/CoParentsConnect/build/ios/iosApp.build/Debug-iphonesimulator/iosApp.build/Objects-normal/x86_64/iOSApp.swiftdeps",
+    "swiftmodule" : "/Users/shahryarali/MobileProjects/CrossPlatform/KMP/CoParentsConnect/build/ios/iosApp.build/Debug-iphonesimulator/iosApp.build/Objects-normal/x86_64/iOSApp~partial.swiftmodule"
+  }
+}

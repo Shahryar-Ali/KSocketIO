@@ -1,0 +1,71 @@
+{
+  "buildCommand" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildOnly"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "7b79493a8b7fc1f2fff3c51cd12ba02458e8d963a07eeba4ac05a175c12568b7"
+    }
+  ],
+  "containerPath" : "/Users/shahryarali/MobileProjects/CrossPlatform/KMP/CoParentsConnect/iosApp/iosApp.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator17.5",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/shahryarali/Library/Developer/Xcode/DerivedData/iosApp-eravjcykqywshdhdjttkwwwtkrdx/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/shahryarali/Library/Developer/Xcode/DerivedData/iosApp-eravjcykqywshdhdjttkwwwtkrdx/Build/Products",
+      "derivedDataPath" : "/Users/shahryarali/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/shahryarali/Library/Developer/Xcode/DerivedData/iosApp-eravjcykqywshdhdjttkwwwtkrdx/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/shahryarali/Library/Developer/Xcode/DerivedData/iosApp-eravjcykqywshdhdjttkwwwtkrdx/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/shahryarali/Library/Developer/Xcode/DerivedData/iosApp-eravjcykqywshdhdjttkwwwtkrdx/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "commandLine" : {
+        "table" : {
+          "OBJROOT" : "/Users/shahryarali/MobileProjects/CrossPlatform/KMP/CoParentsConnect/build/ios",
+          "SYMROOT" : "/Users/shahryarali/MobileProjects/CrossPlatform/KMP/CoParentsConnect/build/ios"
+        }
+      },
+      "synthesized" : {
+        "table" : {
+          "ACTION" : "build",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPhone16,1",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "17.5",
+          "ASSETCATALOG_FILTER_FOR_THINNING_DEVICE_CONFIGURATION" : "iPhone16,1",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO",
+          "ONLY_ACTIVE_ARCH" : "YES",
+          "TARGET_DEVICE_IDENTIFIER" : "6D087310-50E1-4D1A-B88A-3A9403F1D43A",
+          "TARGET_DEVICE_MODEL" : "iPhone16,1",
+          "TARGET_DEVICE_OS_VERSION" : "17.5",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
