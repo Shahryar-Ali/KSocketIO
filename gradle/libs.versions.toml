@@ -7,7 +7,7 @@ compose-plugin = "1.8.2"
 kotlin = "2.2.0"
 socketIoClient = "2.1.2"
 startupRuntime = "1.2.0"
-socketIOPod = "16.1.1"
+socketIOPod = "15.2.0"
 
 [libraries]
 androidx-startup-runtime = { module = "androidx.startup:startup-runtime", version.ref = "startupRuntime" }

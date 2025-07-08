@@ -5,11 +5,11 @@ Pod::Spec.new do |spec|
     spec.source                   = { :http=> ''}
     spec.authors                  = ''
     spec.license                  = ''
-    spec.summary                  = 'Some description for the Shared Module'
+    spec.summary                  = 'Kotlin Multiplatform wrapper for Socket.IO client'
     spec.vendored_frameworks      = 'build/cocoapods/framework/kSocket.framework'
     spec.libraries                = 'c++'
     spec.ios.deployment_target    = '15.6'
-    spec.dependency 'Socket.IO-Client-Swift', '16.1.1'
+                
                 
     if !Dir.exist?('build/cocoapods/framework/kSocket.framework') || Dir.empty?('build/cocoapods/framework/kSocket.framework')
         raise "

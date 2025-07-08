@@ -38,11 +38,11 @@ kotlin {
             baseName = "kSocket"
             isStatic = true
         }
-        pod("Socket.IO-Client-Swift"){
+        /*pod("Socket.IO-Client-Swift"){
             version = libs.versions.socketIOPod.get()
             moduleName = "SocketIO"
             extraOpts += listOf("-compiler-option", "-fmodules")
-        }
+        }*/
     }
     
     sourceSets {
@@ -85,33 +85,33 @@ android {
 mavenPublishing {
     coordinates(
         "io.github.shahryar-ali-km",
-        "library",
+        "ksocketio",
         "0.0.1"
     )
 
     pom {
         name = "KSocketIO"
         description = "Library to implement Socket.IO for Kotlin Multiplatform project"
-        inceptionYear = "2024"
-        url = "https://github.com/kotlin/multiplatform-library-template/"
+        inceptionYear = "2025"
+        url = "https://github.com/Shahryar-Ali/KSocketIO"
         licenses {
             license {
-                name = "XXX"
-                url = "YYY"
-                distribution = "ZZZ"
+                name = "The MIT License"
+                url = "https://opensource.org/licenses/MIT"
+                distribution = "repo"
             }
         }
         developers {
             developer {
-                id = "XXX"
-                name = "YYY"
-                url = "ZZZ"
+                id = "Shahryar-Ali"
+                name = "Syed Shahryar Ali"
+                url = "https://github.com/Shahryar-Ali"
             }
         }
         scm {
-            url = "XXX"
-            connection = "YYY"
-            developerConnection = "ZZZ"
+            url = "https://github.com/Shahryar-Ali/KSocketIO"
+            connection = "https://github.com/Shahryar-Ali/KSocketIO.git"
+            developerConnection = "git@github.com:Shahryar-Ali/KSocketIO.git"
         }
     }
 }
