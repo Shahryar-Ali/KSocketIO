@@ -1,13 +1,13 @@
 package com.shahryar.lib.kSocketIo
 
 interface SocketNativeWrapper {
-    fun connect()
+    fun connect(url: String,nameSpace: String, config: Map<String, Any?>)
+    fun disconnect()
+    fun isConnected(): Boolean
+    fun on(event: String, callback: ((String?) -> Unit))
+    fun emit(event: String, payload: String)
+    fun off(event: String)
+    fun offAllEvents()
 }
 
-private var socketNativeWrapper: SocketNativeWrapper? = null
-
-fun setSocketNativeWrapper(wrapper: SocketNativeWrapper){
-    socketNativeWrapper = wrapper
-}
-
-fun getSocketNativeWrapper(): SocketNativeWrapper? = socketNativeWrapper
+var socketNativeWrapper: SocketNativeWrapper? = null

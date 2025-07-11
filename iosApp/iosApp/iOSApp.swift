@@ -10,7 +10,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         _ application: UIApplication,
         didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
     ) -> Bool {
-        SocketNativeWrapperKt.socketNativeWrapper = SocketIOWrapper(socketURL: , config: <#T##[String : Any]#>)
+        SocketNativeWrapperKt.socketNativeWrapper = SocketIOWrapper()
         return true
     }
 }
