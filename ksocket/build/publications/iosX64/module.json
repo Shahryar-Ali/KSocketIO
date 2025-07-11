@@ -1,0 +1,199 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ksocketio/0.0.1/ksocketio-0.0.1.module",
+    "group": "io.github.shahryar-ali-km",
+    "module": "ksocketio",
+    "version": "0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.8.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.8.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.components",
+          "module": "components-resources",
+          "version": {
+            "requires": "1.8.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kSocket-iosX64Main.klib",
+          "url": "ksocketio-iosx64-0.0.1.klib",
+          "size": 20800,
+          "sha512": "e31938e05cdea7c6901b094c3b142dec31732270ab6fffbb24b2c5ae9d380b4d375cdc4b2691b7ed6765ab69b7a78c5ba53adc8e2a1f97e75a96207fe1b5df47",
+          "sha256": "ff5bda7b9e2cf2ffa6d6e3f1aa3238646aea2004fb80d364903e06e2b6c23903",
+          "sha1": "97719300f00142cf26e03d86881b1eb8f3d1fba4",
+          "md5": "f8ee07bac18b5b097ec0ebc08740e861"
+        }
+      ]
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kSocket-iosx64-sources.jar",
+          "url": "ksocketio-iosx64-0.0.1-sources.jar",
+          "size": 6623,
+          "sha512": "960f3bbff4eeb56522a8c65e17822d4e61355d331065a7aa37b58f0cc89d7f36fe180efdeb6bd75905e9aabdaa9fc754ee7243c3066729c22a68d7ba8fbdf1f8",
+          "sha256": "e6c9b520e64493731a9eb209c65d3bee2c1b29e65117f1f5277881f4278d63ea",
+          "sha1": "335fd09f18cb896f495a371b8e950ab2c216f598",
+          "md5": "b7ae9dd5788c72d0623cecae49e29b3c"
+        }
+      ]
+    },
+    {
+      "name": "iosX64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.8.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.8.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.components",
+          "module": "components-resources",
+          "version": {
+            "requires": "1.8.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kSocket.kotlin_resources.zip",
+          "url": "ksocketio-iosx64-0.0.1-kotlin_resources.kotlin_resources.zip",
+          "size": 322,
+          "sha512": "38e3d30bc364f3272c08faf9bbd6514d59f75201cf133b31df9d8f6989d51727bb01e0f5160fca7189c5c33efc68464fb8c5cf064a95093ed76cb7d9dcf0ec41",
+          "sha256": "01637dcb47071227b644c7375c47b037d64545ac72908be0a20a98cef6d10540",
+          "sha1": "5933f4dbdb467823feb358af54c2c68d12afe71c",
+          "md5": "ad4c32587d5237be4f890acdde436baf"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.8.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.8.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.components",
+          "module": "components-resources",
+          "version": {
+            "requires": "1.8.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kSocket-iosx64-metadata.jar",
+          "url": "ksocketio-iosx64-0.0.1-metadata.jar",
+          "size": 3415,
+          "sha512": "78fb8198353127cce33a19be312aee18021f5688e4700221e42d21aebc8cd0cf6f0790ccac0dd92529189722be95a390fb049b14f6f1d54111d46735dcc315d5",
+          "sha256": "0a9c356baa918d3400a74534ffa25bbadf5c17cbc6d26b1bacebb8cd737cca4d",
+          "sha1": "1a4104772cc1e760eab9db3b0e4dbf7b04fc514e",
+          "md5": "9230ab3de2ee08cedfb4c5b7ebacc342"
+        }
+      ]
+    }
+  ]
+}

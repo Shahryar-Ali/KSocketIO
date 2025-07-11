@@ -1,0 +1,199 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ksocketio/0.0.1/ksocketio-0.0.1.module",
+    "group": "io.github.shahryar-ali-km",
+    "module": "ksocketio",
+    "version": "0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.8.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.8.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.components",
+          "module": "components-resources",
+          "version": {
+            "requires": "1.8.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kSocket-iosSimulatorArm64Main.klib",
+          "url": "ksocketio-iossimulatorarm64-0.0.1.klib",
+          "size": 20912,
+          "sha512": "3616c71f60d42748188c96c7f777f95c6c964af338032a140ce389947a191c3959210c9c2fb247bf345a70837d58d3a2704b60420bda276439c741f56b4b7dc6",
+          "sha256": "062b6b92b5e032dc2ebefc9d7e4387ccd2c87c00719f52139286a5a1c223a898",
+          "sha1": "d6204439f4cdaf9693cd854e1b3453cd76649616",
+          "md5": "e321f1fd7dfebdacb6cb9873bf8bdd43"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kSocket-iossimulatorarm64-sources.jar",
+          "url": "ksocketio-iossimulatorarm64-0.0.1-sources.jar",
+          "size": 6755,
+          "sha512": "be3e58519c64b6e2ee55bb3f172380fc47960626caed930d2d85f7255e92fa2c9423f53502cff8613f1f069c223ef7dbe3aa049cc11290a3846e730433c20037",
+          "sha256": "dcbfa02fb4e48bea2c970485659627e1e1abeb488325b0d6cb0530e857143d79",
+          "sha1": "7ca4eb421ea3deef1a8cc310b39f133fa986fe17",
+          "md5": "2b87335dc94cea8fa4ce691fe0bab098"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.8.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.8.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.components",
+          "module": "components-resources",
+          "version": {
+            "requires": "1.8.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kSocket.kotlin_resources.zip",
+          "url": "ksocketio-iossimulatorarm64-0.0.1-kotlin_resources.kotlin_resources.zip",
+          "size": 322,
+          "sha512": "a4f841a290848b2c4c842b4c99dc90550eac50b910b3d92875faceb1bf6e1aa5f62f78ff8394c7f113db046a909c7ab5d3d7ad8e641c607218df7d1fc153e99d",
+          "sha256": "d2ee9050492dd72a5c2290c7ea2778ac4dc165d5caecde8648f034d2810af1c1",
+          "sha1": "f58ca028382207bbe50f80d31e804339b535eda5",
+          "md5": "1901466a75083b73bf75c7fe5fe36f90"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.8.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.8.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.components",
+          "module": "components-resources",
+          "version": {
+            "requires": "1.8.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kSocket-iossimulatorarm64-metadata.jar",
+          "url": "ksocketio-iossimulatorarm64-0.0.1-metadata.jar",
+          "size": 3415,
+          "sha512": "c7f4b14b1831c5fe84141fc1f425fefc0d7e1ed32dc03718ae8fcc71616499e729fad8c936d851703bcf32accd9bdc4eb174694abcbabe1a0bc9dc117ce904a3",
+          "sha256": "569786714947ccbcc4aba660fcfe3bf7fa73479a9dd3ec4b9eaafafc790896c3",
+          "sha1": "7d1e435e7cec8f33ecf1ff3949482fb6f2096930",
+          "md5": "1b3fd154ba4e950ac7c2a49695657007"
+        }
+      ]
+    }
+  ]
+}

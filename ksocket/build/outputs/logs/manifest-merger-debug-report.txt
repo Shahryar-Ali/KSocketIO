@@ -1,0 +1,36 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/shahryarali/MobileProjects/CrossPlatform/KMP/KSocketIO/kSocket/src/androidMain/AndroidManifest.xml:1:1-14:12
+INJECTED from /Users/shahryarali/MobileProjects/CrossPlatform/KMP/KSocketIO/kSocket/src/androidMain/AndroidManifest.xml:1:1-14:12
+	package
+		INJECTED from /Users/shahryarali/MobileProjects/CrossPlatform/KMP/KSocketIO/kSocket/src/androidMain/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/shahryarali/MobileProjects/CrossPlatform/KMP/KSocketIO/kSocket/src/androidMain/AndroidManifest.xml:2:5-51
+	xmlns:android
+		ADDED from /Users/shahryarali/MobileProjects/CrossPlatform/KMP/KSocketIO/kSocket/src/androidMain/AndroidManifest.xml:1:11-69
+application
+ADDED from /Users/shahryarali/MobileProjects/CrossPlatform/KMP/KSocketIO/kSocket/src/androidMain/AndroidManifest.xml:3:5-13:19
+provider#androidx.startup.InitializationProvider
+ADDED from /Users/shahryarali/MobileProjects/CrossPlatform/KMP/KSocketIO/kSocket/src/androidMain/AndroidManifest.xml:4:9-12:20
+	tools:node
+		ADDED from /Users/shahryarali/MobileProjects/CrossPlatform/KMP/KSocketIO/kSocket/src/androidMain/AndroidManifest.xml:8:13-31
+	android:authorities
+		ADDED from /Users/shahryarali/MobileProjects/CrossPlatform/KMP/KSocketIO/kSocket/src/androidMain/AndroidManifest.xml:6:13-68
+	android:exported
+		ADDED from /Users/shahryarali/MobileProjects/CrossPlatform/KMP/KSocketIO/kSocket/src/androidMain/AndroidManifest.xml:7:13-37
+	android:name
+		ADDED from /Users/shahryarali/MobileProjects/CrossPlatform/KMP/KSocketIO/kSocket/src/androidMain/AndroidManifest.xml:5:13-67
+meta-data#com.shahryar.lib.kSocketIo.utils.ApplicationContextInitializer
+ADDED from /Users/shahryarali/MobileProjects/CrossPlatform/KMP/KSocketIO/kSocket/src/androidMain/AndroidManifest.xml:9:13-11:52
+	android:value
+		ADDED from /Users/shahryarali/MobileProjects/CrossPlatform/KMP/KSocketIO/kSocket/src/androidMain/AndroidManifest.xml:11:17-49
+	android:name
+		ADDED from /Users/shahryarali/MobileProjects/CrossPlatform/KMP/KSocketIO/kSocket/src/androidMain/AndroidManifest.xml:10:17-94
+uses-sdk
+INJECTED from /Users/shahryarali/MobileProjects/CrossPlatform/KMP/KSocketIO/kSocket/src/androidMain/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/shahryarali/MobileProjects/CrossPlatform/KMP/KSocketIO/kSocket/src/androidMain/AndroidManifest.xml
+INJECTED from /Users/shahryarali/MobileProjects/CrossPlatform/KMP/KSocketIO/kSocket/src/androidMain/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/shahryarali/MobileProjects/CrossPlatform/KMP/KSocketIO/kSocket/src/androidMain/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/shahryarali/MobileProjects/CrossPlatform/KMP/KSocketIO/kSocket/src/androidMain/AndroidManifest.xml
