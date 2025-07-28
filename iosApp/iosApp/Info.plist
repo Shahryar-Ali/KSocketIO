@@ -29,6 +29,19 @@
 	</dict>
 	<key>UILaunchScreen</key>
 	<dict/>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsArbitraryLoads</key>
+        <true/> <!-- Allow HTTP (not recommended for production) -->
+        <key>NSAllowsLocalNetworking</key>
+        <true/> <!-- Allow local network connections -->
+    </dict>
+    <key>NSAllowsArbitraryLoadsInWebContent</key>
+    <true/>
+    <key>UIBackgroundModes</key>
+    <array>
+        <string>fetch</string> <!-- For periodic updates -->
+    </array>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>

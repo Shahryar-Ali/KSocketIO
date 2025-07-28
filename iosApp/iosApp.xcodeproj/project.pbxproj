@@ -10,6 +10,7 @@
 		058557BB273AAA24004C7B11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 058557BA273AAA24004C7B11 /* Assets.xcassets */; };
 		058557D9273AAEEB004C7B11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 058557D8273AAEEB004C7B11 /* Preview Assets.xcassets */; };
 		2152FB042600AC8F00CF470E /* iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2152FB032600AC8F00CF470E /* iOSApp.swift */; };
+		99CBBC8C2E376E0300B77797 /* KSocketUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CBBC8B2E376DE400B77797 /* KSocketUtil.swift */; };
 		99D688992E16B18900478E54 /* SocketIOWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D688982E16B17B00478E54 /* SocketIOWrapper.swift */; };
 		BD78BD026579D547C21F4AE6 /* Pods_iosApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E07D7538E3BA023218B7905 /* Pods_iosApp.framework */; };
 /* End PBXBuildFile section */
@@ -22,6 +23,8 @@
 		7555FF7B242A565900829871 /* CoParentsConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoParentsConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7555FF8C242A565B00829871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E9644AFBDA7F1558542EBAF /* Pods-iosApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosApp.debug.xcconfig"; path = "Target Support Files/Pods-iosApp/Pods-iosApp.debug.xcconfig"; sourceTree = "<group>"; };
+		99CBBC8B2E376DE400B77797 /* KSocketUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSocketUtil.swift; sourceTree = "<group>"; };
+		99CBBC8D2E37785F00B77797 /* kSocket-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "kSocket-Bridging-Header.h"; sourceTree = "<group>"; };
 		99D688982E16B17B00478E54 /* SocketIOWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketIOWrapper.swift; sourceTree = "<group>"; };
 		AB3632DC29227652001CCB65 /* Config.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		FAF3DFADFDE745E42A24F986 /* Pods-iosApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosApp.release.xcconfig"; path = "Target Support Files/Pods-iosApp/Pods-iosApp.release.xcconfig"; sourceTree = "<group>"; };
@@ -78,6 +81,8 @@
 		7555FF7D242A565900829871 /* iosApp */ = {
 			isa = PBXGroup;
 			children = (
+				99CBBC8D2E37785F00B77797 /* kSocket-Bridging-Header.h */,
+				99CBBC8B2E376DE400B77797 /* KSocketUtil.swift */,
 				99D688982E16B17B00478E54 /* SocketIOWrapper.swift */,
 				058557BA273AAA24004C7B11 /* Assets.xcassets */,
 				7555FF8C242A565B00829871 /* Info.plist */,
@@ -116,7 +121,6 @@
 				B92378962B6B1156000C7307 /* Frameworks */,
 				7555FF79242A565900829871 /* Resources */,
 				5A131E3057B41FCE08020210 /* [CP] Embed Pods Frameworks */,
-				17A0995A1744E00207C84963 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -174,23 +178,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		17A0995A1744E00207C84963 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-iosApp/Pods-iosApp-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-iosApp/Pods-iosApp-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iosApp/Pods-iosApp-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		213CDF3F5D064165EA56A129 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -257,6 +244,7 @@
 			files = (
 				99D688992E16B18900478E54 /* SocketIOWrapper.swift in Sources */,
 				2152FB042600AC8F00CF470E /* iOSApp.swift in Sources */,
+				99CBBC8C2E376E0300B77797 /* KSocketUtil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

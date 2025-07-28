@@ -25,6 +25,7 @@ kotlin {
         iosTarget.binaries.framework {
             baseName = "kSocket"
             isStatic = true
+            //freeCompilerArgs += ("-import-objc-header=${projectDir}/../iosApp/iosApp/kSocket-Bridging-Header.h")
         }
     }
 
@@ -59,6 +60,15 @@ kotlin {
             //implementation(compose.ui)
             implementation(compose.components.resources)
             //implementation(compose.components.uiToolingPreview)
+        }
+    }
+
+    targets.withType<org.jetbrains.kotlin.gradle.plugin.mpp.KotlinNativeTarget> {
+        compilations["main"].cinterops {
+            val ksocket by creating {
+                defFile(project.file("cinterop/ksocket.def"))
+                packageName("com.shahryar.lib.kSocketIo")
+            }
         }
     }
 }

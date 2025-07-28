@@ -44,11 +44,11 @@
         {
           "name": "kSocket-debug.aar",
           "url": "ksocketio-android-debug-0.0.1.aar",
-          "size": 16524,
-          "sha512": "0a2daafb43d92e91268fcba7243b12e045bbb3de289381f4fb39d7dcd0d0a232c6ada26c541fbd7ab7cc83968f4b436919e640d5107000dde8ee309f823fa71d",
-          "sha256": "17c6f4a7d4729352b17bf31738f8b7312c49221c1f584281162da2cb753edc13",
-          "sha1": "21ed5df291db8a8bc490a22da8cfb70791a35885",
-          "md5": "04c8a761239e9c2ee0a87ed73b1b46a3"
+          "size": 16616,
+          "sha512": "6910999e51f6bf9bc4d52e6c339dad03c5ee044f23ae3558fa83ed9a43273b6c49857ad6244f6e5083cf405d6f061a4611ff292c427ac29e672fec9186785bdc",
+          "sha256": "528f03a3fffdd209fa8a5dcca3dd5becd64040684fda13ddaf61f1fe0b607ee7",
+          "sha1": "43dc6b828bd391c9b22c8581bdb76eeb6ffdc8c3",
+          "md5": "6e25a275d7eda166d96fad9e6b7c67ca"
         }
       ]
     },
@@ -193,11 +193,11 @@
         {
           "name": "kSocket-debug.aar",
           "url": "ksocketio-android-debug-0.0.1.aar",
-          "size": 16524,
-          "sha512": "0a2daafb43d92e91268fcba7243b12e045bbb3de289381f4fb39d7dcd0d0a232c6ada26c541fbd7ab7cc83968f4b436919e640d5107000dde8ee309f823fa71d",
-          "sha256": "17c6f4a7d4729352b17bf31738f8b7312c49221c1f584281162da2cb753edc13",
-          "sha1": "21ed5df291db8a8bc490a22da8cfb70791a35885",
-          "md5": "04c8a761239e9c2ee0a87ed73b1b46a3"
+          "size": 16616,
+          "sha512": "6910999e51f6bf9bc4d52e6c339dad03c5ee044f23ae3558fa83ed9a43273b6c49857ad6244f6e5083cf405d6f061a4611ff292c427ac29e672fec9186785bdc",
+          "sha256": "528f03a3fffdd209fa8a5dcca3dd5becd64040684fda13ddaf61f1fe0b607ee7",
+          "sha1": "43dc6b828bd391c9b22c8581bdb76eeb6ffdc8c3",
+          "md5": "6e25a275d7eda166d96fad9e6b7c67ca"
         }
       ]
     },
@@ -217,11 +217,11 @@
         {
           "name": "kSocket-android-debug-sources.jar",
           "url": "ksocketio-android-debug-0.0.1-sources.jar",
-          "size": 6544,
-          "sha512": "95fcb96ccf0a8ec1944d722ec7369f59e46c4acec0dd936c98e6b335646dff2d9dd1ee0181aa0890dc913cae97015fcde8f16e623197fc03e57c2fdb35f15b53",
-          "sha256": "95cf09c74b3d9a51b4f084136175fb95356a6c498004c554568039c621827e14",
-          "sha1": "8584fdd339d44e43e39f6240bdb700e62646d105",
-          "md5": "f8273177c2586840ca66fe9a146ca945"
+          "size": 6546,
+          "sha512": "fdcf6ab987eb2bf9db11eae5c71267a9827327f6411d09c7f0e6de2854d3ff7909afbb7c56125f53c2f2be14c50d0857097b7798fa42b7ed9f1f482e0c3d7d94",
+          "sha256": "d15400c3174e537649ecea1d5491d1e4db71f79aa45e3aabdc031615bc9c3cf0",
+          "sha1": "a484256a0d46b3a3a12fd1036b8fbdc4d21520cb",
+          "md5": "5bbfaa751b2195d511ed069f4d51b0fc"
         }
       ]
     }

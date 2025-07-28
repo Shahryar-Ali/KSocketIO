@@ -1,0 +1,20 @@
+*.iml
+.gradle
+/local.properties
+.idea
+.DS_Store
+/build
+*/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+# Kotlin/Native and KMP build artifacts
+.kotlin/
+*.klib
+# CocoaPods
+iosApp/Pods/
+# Xcode user data
+iosApp/iosApp.xcodeproj/xcuserdata/
+iosApp/iosApp.xcworkspace/xcuserdata/
+iosApp/iosApp.xcodeproj/project.xcworkspace/xcuserdata

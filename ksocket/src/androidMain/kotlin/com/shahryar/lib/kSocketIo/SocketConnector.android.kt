@@ -32,7 +32,7 @@ actual class SocketConnector actual constructor(){
             }
             config.connectParams?.let {params ->
                 if (params.isNotEmpty()) {
-                    params.map { (key, value) -> "$key=$value" }.joinToString("&")
+                    query = params.map { (key, value) -> "$key=$value" }.joinToString("&")
                 }
             }
         }

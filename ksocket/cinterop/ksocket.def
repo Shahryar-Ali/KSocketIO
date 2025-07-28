@@ -1,0 +1,3 @@
+headers = /Users/shahryarali/MobileProjects/CrossPlatform/KMP/KSocketIO/iosApp/iosApp/kSocket-Bridging-Header.h
+language = Objective-C
+package = com.shahryar.lib.kSocketIo

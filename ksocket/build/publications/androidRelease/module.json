@@ -43,11 +43,11 @@
         {
           "name": "kSocket-release.aar",
           "url": "ksocketio-android-0.0.1.aar",
-          "size": 16041,
-          "sha512": "779f84f1276882f05877c4e011303654f2357e4d413c0748e1a592d0da4fc81c6af6ebde4e7c8831598d0f95dde98babafec37ba122c09da364de6ac3b8531f2",
-          "sha256": "a0bcd034a2d955edd40f34431d1fe5d01cde2171ebf7606b3c7422abd989b8f0",
-          "sha1": "dca6e975ba55a66b4eb8acebbab51927fe39b541",
-          "md5": "ec2eca12840569eca8031dae859eb15d"
+          "size": 16118,
+          "sha512": "619287b648fc6b125dd3d4d5227f8e249698b4e27e7f8b2198314f8309aaa37a8193b1b7d11bc685250ba6cb7cdc5bf0cfb84eb4e7a25823fc4ea102984ca4d7",
+          "sha256": "2b80f37fed32876b5aff43b2befc6276bf38fab39d4e12645d751aa05525c31e",
+          "sha1": "ff6dde93276495016d669de4c080b47780425540",
+          "md5": "1380e2067a458367d0f17767c1f65760"
         }
       ]
     },
@@ -191,11 +191,11 @@
         {
           "name": "kSocket-release.aar",
           "url": "ksocketio-android-0.0.1.aar",
-          "size": 16041,
-          "sha512": "779f84f1276882f05877c4e011303654f2357e4d413c0748e1a592d0da4fc81c6af6ebde4e7c8831598d0f95dde98babafec37ba122c09da364de6ac3b8531f2",
-          "sha256": "a0bcd034a2d955edd40f34431d1fe5d01cde2171ebf7606b3c7422abd989b8f0",
-          "sha1": "dca6e975ba55a66b4eb8acebbab51927fe39b541",
-          "md5": "ec2eca12840569eca8031dae859eb15d"
+          "size": 16118,
+          "sha512": "619287b648fc6b125dd3d4d5227f8e249698b4e27e7f8b2198314f8309aaa37a8193b1b7d11bc685250ba6cb7cdc5bf0cfb84eb4e7a25823fc4ea102984ca4d7",
+          "sha256": "2b80f37fed32876b5aff43b2befc6276bf38fab39d4e12645d751aa05525c31e",
+          "sha1": "ff6dde93276495016d669de4c080b47780425540",
+          "md5": "1380e2067a458367d0f17767c1f65760"
         }
       ]
     },
@@ -214,11 +214,11 @@
         {
           "name": "kSocket-android-sources.jar",
           "url": "ksocketio-android-0.0.1-sources.jar",
-          "size": 6544,
-          "sha512": "95fcb96ccf0a8ec1944d722ec7369f59e46c4acec0dd936c98e6b335646dff2d9dd1ee0181aa0890dc913cae97015fcde8f16e623197fc03e57c2fdb35f15b53",
-          "sha256": "95cf09c74b3d9a51b4f084136175fb95356a6c498004c554568039c621827e14",
-          "sha1": "8584fdd339d44e43e39f6240bdb700e62646d105",
-          "md5": "f8273177c2586840ca66fe9a146ca945"
+          "size": 6546,
+          "sha512": "fdcf6ab987eb2bf9db11eae5c71267a9827327f6411d09c7f0e6de2854d3ff7909afbb7c56125f53c2f2be14c50d0857097b7798fa42b7ed9f1f482e0c3d7d94",
+          "sha256": "d15400c3174e537649ecea1d5491d1e4db71f79aa45e3aabdc031615bc9c3cf0",
+          "sha1": "a484256a0d46b3a3a12fd1036b8fbdc4d21520cb",
+          "md5": "5bbfaa751b2195d511ed069f4d51b0fc"
         }
       ]
     }

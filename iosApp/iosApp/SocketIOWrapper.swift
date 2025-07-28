@@ -18,6 +18,7 @@ public class SocketIOWrapper: SocketNativeWrapper{
         return socket?.status == .connected
     }
     public func connect(url: String,nameSpace: String, config: [String: Any]) {
+        print("IosNative -> connect")
         var socketConfig = SocketIOClientConfiguration()
 
         // Connect Params
@@ -53,6 +54,9 @@ public class SocketIOWrapper: SocketNativeWrapper{
             socketConfig.insert(.forceNew(forceNew))
         }
 
+        socketConfig.insert(.forceWebsockets(true))
+        socketConfig.insert(.log(true))
+
         self.manager = SocketManager(socketURL: URL(string: url)!, config: socketConfig)
         self.socket = manager?.socket(forNamespace: "/" + nameSpace)
 
@@ -64,6 +68,7 @@ public class SocketIOWrapper: SocketNativeWrapper{
     }
 
     public func disconnect() {
+        print("IosNative -> disconnect")
         socket?.disconnect()
         socket = nil
         manager = nil
@@ -74,6 +79,7 @@ public class SocketIOWrapper: SocketNativeWrapper{
     }
 
     public func on(event: String, callback: @escaping (String?) -> Void) {
+        print("IosNative -> On -> " + event)
         socket?.off(event)
         socket?.on(event) { data, ack in
             let message = self.rawDataToString(data: data)

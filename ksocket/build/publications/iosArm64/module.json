@@ -59,11 +59,20 @@
         {
           "name": "kSocket-iosArm64Main.klib",
           "url": "ksocketio-iosarm64-0.0.1.klib",
-          "size": 20819,
-          "sha512": "b0422173574d73d112c57e2d237ef1b3db589767ff74cfce2aca15a79ba67d7809cc98cbba9e208f93f8cfc12271ba058020d81a3d333b71844a3297dc525d6a",
-          "sha256": "7f518a9b9b6f36cf51f78bd18c1c0076a0e27bce4ef7d19751fad5b753aeeed2",
-          "sha1": "776e6ea8ac90e494f2a760feb7e56f73097abd11",
-          "md5": "ca41609a5f875859cc9dec51228c3385"
+          "size": 21350,
+          "sha512": "7d7379f001ef2b70cca07bbd4a0a1038c6f64b6826de4a1ce00504b03909fd6e9be9d5c55dbf6b6826d8d8eec5fc4275d9cf3d4ea8b971ff4d1d40271446a85a",
+          "sha256": "444d929104adddb9c4b3395b0ad7cc7d15a7f9965cdc4d4ebe398a1011b5e908",
+          "sha1": "1ab4bc664420bd0fa7f5b875eaa527888a885521",
+          "md5": "5ffbb89ac60524f504ee73fd90de5daa"
+        },
+        {
+          "name": "kSocket-iosArm64Cinterop-ksocketMain.klib",
+          "url": "ksocketio-iosarm64-0.0.1-cinterop-ksocket.klib",
+          "size": 5969,
+          "sha512": "cb53e18ad7e20ae78251a2c2d14d21ca0960f258ad5b5056e1de3d9bfde9099ecf3fbb855097758caa70d23054462c6f7111f84e039483e0719d4da7d09e79ef",
+          "sha256": "5649fa7f2e5f5ffd79b681e8da7463643200abec5c567ec34e8776fb0ee82b0c",
+          "sha1": "3a7a27d1333ed6d15f3c3e60f253e47711299e9f",
+          "md5": "de705727fe12403bad1b034119d4c9f9"
         }
       ]
     },
@@ -82,11 +91,11 @@
         {
           "name": "kSocket-iosarm64-sources.jar",
           "url": "ksocketio-iosarm64-0.0.1-sources.jar",
-          "size": 6647,
-          "sha512": "83d065a657f687fa44d77e34092e8fc0cca0fad42140e771e23b9810824826452856bf9a590b3e84e62ab345e56e33dc5d51d365e6ca7ecbe86cacf57ae83daa",
-          "sha256": "a998249138b6462fce72d1b2fdfa65b11d0110d0b7b29c0b6e4fda8274044287",
-          "sha1": "8798d05c8416a68e6920392767b1f80f2dbd8774",
-          "md5": "50fce01c56ea5369a5a59d5d015eb5aa"
+          "size": 6744,
+          "sha512": "6f919d15cd10c3e472ba3613654ccfabeedcacf3747f82aee97c28d898704c8ec4507ca7f2dfd5ee1a3a70fdc8a5b88f158df276be1d0f82479de41cd7d10cf4",
+          "sha256": "56160f4fcef1aed466b69940e2af9d33e377cc2f11ba76c966a73f4519ad5e72",
+          "sha1": "193498543be2f268b8a6f186baff9175b00e4e69",
+          "md5": "165b6049e7f95a03107daba4c7eb79d2"
         }
       ]
     },
@@ -136,10 +145,10 @@
           "name": "kSocket.kotlin_resources.zip",
           "url": "ksocketio-iosarm64-0.0.1-kotlin_resources.kotlin_resources.zip",
           "size": 322,
-          "sha512": "7ce4842dc58a9084d1a48f03888bce53de17cb72de0a4834ea9acdfbd2c524edcbb348349fcb54faa8becc6f6af0103dc8a0061d2a4e6d6a0d144ac6781f40e3",
-          "sha256": "4aae9a92259f8565efe22741da2fa2b740d0a33050c1f363a5576bd60eb772d9",
-          "sha1": "dcb32f5fb6e5ad4d3e46fce0037bb19720a69692",
-          "md5": "a6e0803f07d0d73fbf7ef44ef2485ec4"
+          "sha512": "9f31403bdde7ccb7acd09bebf32f3554ec7fbf00898accb9f0c44d2de0a38152610c3dbec4310d9d0d5c290d6eaadb24d9514e4a1585945e713e01d595b8c2c2",
+          "sha256": "9902d34f509e469d52f06c21a588921934341aaec7a6bed5dd52355ed4d312f5",
+          "sha1": "d2db1106af0b36807e640b866d2a2cbb53e1f8cd",
+          "md5": "590c3b36cc49b793a3873bec8d65f30e"
         }
       ]
     },
@@ -187,11 +196,11 @@
         {
           "name": "kSocket-iosarm64-metadata.jar",
           "url": "ksocketio-iosarm64-0.0.1-metadata.jar",
-          "size": 3415,
-          "sha512": "b5c89148acb0dafea21b4400b6eb8dc819ffe532135a250c1dc699c6d937c50d3a44c6e6916201c62a4cd38accb37f760d2d225ab8eab7a512d14f2657881b0d",
-          "sha256": "f844b787d92103d0c44ab5b959389cd03a7de385ce52b49d5340ccffb7a7e8a2",
-          "sha1": "cfb40751982912a9b28e6d6580ff76655e87b63f",
-          "md5": "1346a2912260f05bf9b77bc25eec3a82"
+          "size": 18274,
+          "sha512": "8ae91e01a8b3f406bdc48a37005cb611f610f6a37080b97674108e9eba88285da38428a43675e930fd4591ff7725be8abdf73a98f06af9066dd2bbef848dd019",
+          "sha256": "26ecf3dedfd0c5659ba79554e869c3bb6d6c8fcde3f37e9e5a85dc2f98a2abff",
+          "sha1": "5fe542cb120741ab59a35bdc10587faa43d08fb7",
+          "md5": "a9084a987f437ea64f0fc078ab179000"
         }
       ]
     }
