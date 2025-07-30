@@ -1,8 +1,0 @@
-framework module "kSocket" {
-    umbrella header "kSocket.h"
-
-    export *
-    module * { export * }
-
-    use Foundation
-}
