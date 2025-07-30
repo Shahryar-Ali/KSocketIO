@@ -65,8 +65,8 @@ kotlin {
 
     targets.withType<org.jetbrains.kotlin.gradle.plugin.mpp.KotlinNativeTarget> {
         compilations["main"].cinterops {
-            val ksocket by creating {
-                defFile(project.file("cinterop/ksocket.def"))
+            val socketIOWrapper by creating {
+                defFile(project.file("cinterop/socketIOWrapper.def"))
                 packageName("com.shahryar.lib.kSocketIo")
             }
         }

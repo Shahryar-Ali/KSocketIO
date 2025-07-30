@@ -10,4 +10,4 @@ interface SocketNativeWrapper {
     fun offAllEvents()
 }
 
-var socketNativeWrapper: SocketNativeWrapper? = null
+//var socketNativeWrapper: SocketNativeWrapper? = null

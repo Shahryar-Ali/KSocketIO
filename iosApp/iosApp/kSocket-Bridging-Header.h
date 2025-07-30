@@ -9,8 +9,6 @@
 // Framework: YourSharedLibrary
 // Path: iosApp/YourSharedLibrary/YourSharedLibrary-Bridging-Header.h
 
-#ifndef kSocket_Bridging_Header_h
-#define kSocket_Bridging_Header_h
 #import <Foundation/Foundation.h>
 
 // Expose KSocketUtil to Kotlin/Native
@@ -20,5 +18,3 @@ NS_SWIFT_NAME(KSocketUtil)
 + (void)initSocket NS_SWIFT_NAME(initSocket());
 
 @end
-
-#endif

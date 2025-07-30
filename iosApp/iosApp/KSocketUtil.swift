@@ -10,6 +10,6 @@ import kSocket
 
 @objc public final class KSocketUtil: NSObject {
     @objc public static func initSocket(){
-        SocketNativeWrapperKt.socketNativeWrapper = SocketIOWrapper()
+       // SocketNativeWrapperKt.socketNativeWrapper = SocketIOWrapper()
     }
 }

@@ -59,20 +59,20 @@
         {
           "name": "kSocket-iosArm64Main.klib",
           "url": "ksocketio-iosarm64-0.0.1.klib",
-          "size": 21350,
-          "sha512": "7d7379f001ef2b70cca07bbd4a0a1038c6f64b6826de4a1ce00504b03909fd6e9be9d5c55dbf6b6826d8d8eec5fc4275d9cf3d4ea8b971ff4d1d40271446a85a",
-          "sha256": "444d929104adddb9c4b3395b0ad7cc7d15a7f9965cdc4d4ebe398a1011b5e908",
-          "sha1": "1ab4bc664420bd0fa7f5b875eaa527888a885521",
-          "md5": "5ffbb89ac60524f504ee73fd90de5daa"
+          "size": 21462,
+          "sha512": "194f54260144afcbdf47c09d5f921e3ba40cbee4051658996bed233ec76ecb5de80a1cce71024c25e83bc04d350add1d563d0a0f4cdb99a07830d5ce8b151bc5",
+          "sha256": "fed4319b4807bd14b29446050b4e674a983eef0b710b00145daa2530b6e60bab",
+          "sha1": "3e22ba3dca4610833d434ae616a19045cd223f47",
+          "md5": "5ffc2ebc28676e6d827a7fd9456b7089"
         },
         {
-          "name": "kSocket-iosArm64Cinterop-ksocketMain.klib",
-          "url": "ksocketio-iosarm64-0.0.1-cinterop-ksocket.klib",
-          "size": 5969,
-          "sha512": "cb53e18ad7e20ae78251a2c2d14d21ca0960f258ad5b5056e1de3d9bfde9099ecf3fbb855097758caa70d23054462c6f7111f84e039483e0719d4da7d09e79ef",
-          "sha256": "5649fa7f2e5f5ffd79b681e8da7463643200abec5c567ec34e8776fb0ee82b0c",
-          "sha1": "3a7a27d1333ed6d15f3c3e60f253e47711299e9f",
-          "md5": "de705727fe12403bad1b034119d4c9f9"
+          "name": "kSocket-iosArm64Cinterop-socketIOWrapperMain.klib",
+          "url": "ksocketio-iosarm64-0.0.1-cinterop-socketIOWrapper.klib",
+          "size": 6268,
+          "sha512": "943f7d7e52c4ddb82737dbd3e1876b97d59b0d13eab192b10c3a87fcf8dd495532f0e5a27a046bb46be6aacd11f12313747bcb3afbeb59ca8d59cddd14ebe806",
+          "sha256": "17e6195073a46a7fd75deba2d57ee1fd051c7dd2f5fee16875bc413c54db4ddd",
+          "sha1": "4d932e1263ffa1a3b774e5712eeb4c9dd096ae8e",
+          "md5": "3988a0c2a6d41308301b9c712358446a"
         }
       ]
     },
@@ -91,11 +91,11 @@
         {
           "name": "kSocket-iosarm64-sources.jar",
           "url": "ksocketio-iosarm64-0.0.1-sources.jar",
-          "size": 6744,
-          "sha512": "6f919d15cd10c3e472ba3613654ccfabeedcacf3747f82aee97c28d898704c8ec4507ca7f2dfd5ee1a3a70fdc8a5b88f158df276be1d0f82479de41cd7d10cf4",
-          "sha256": "56160f4fcef1aed466b69940e2af9d33e377cc2f11ba76c966a73f4519ad5e72",
-          "sha1": "193498543be2f268b8a6f186baff9175b00e4e69",
-          "md5": "165b6049e7f95a03107daba4c7eb79d2"
+          "size": 6762,
+          "sha512": "6626fec8f2be776f381e84f7e57400727ee38b2b18759c46932058b794cdbd61c8b1ed650f444f418460fa388e43cfe7bb38cb585c225acc766e19f23c8c7f86",
+          "sha256": "bfc1ed6756d14d72784d91cdf3898cfb3570eba5b78dc5c23b8e08f0d45d2441",
+          "sha1": "2063726e083b8abb55e62cdc4a4d69f8404d112c",
+          "md5": "df42cad56470f0636b1f3bcb06da281c"
         }
       ]
     },
@@ -145,10 +145,10 @@
           "name": "kSocket.kotlin_resources.zip",
           "url": "ksocketio-iosarm64-0.0.1-kotlin_resources.kotlin_resources.zip",
           "size": 322,
-          "sha512": "9f31403bdde7ccb7acd09bebf32f3554ec7fbf00898accb9f0c44d2de0a38152610c3dbec4310d9d0d5c290d6eaadb24d9514e4a1585945e713e01d595b8c2c2",
-          "sha256": "9902d34f509e469d52f06c21a588921934341aaec7a6bed5dd52355ed4d312f5",
-          "sha1": "d2db1106af0b36807e640b866d2a2cbb53e1f8cd",
-          "md5": "590c3b36cc49b793a3873bec8d65f30e"
+          "sha512": "90d69c2451e3653c80d9ed0f33fa48ab84ea802710c7a93e09c45c6dc1d083da8201e08f68129d28e60fd816c455b33c0d56278df4ea7a7e47289e48c5f5e543",
+          "sha256": "2af6204bd9130d9cb2df5beb6c5063529b5cd533ce097c31dfe18cf778d7d9ce",
+          "sha1": "229e71000cfafed117a602071c1b7be4a37ce172",
+          "md5": "4e4e9f7a077636a1c4f7e0882a0a9dd0"
         }
       ]
     },
@@ -196,11 +196,11 @@
         {
           "name": "kSocket-iosarm64-metadata.jar",
           "url": "ksocketio-iosarm64-0.0.1-metadata.jar",
-          "size": 18274,
-          "sha512": "8ae91e01a8b3f406bdc48a37005cb611f610f6a37080b97674108e9eba88285da38428a43675e930fd4591ff7725be8abdf73a98f06af9066dd2bbef848dd019",
-          "sha256": "26ecf3dedfd0c5659ba79554e869c3bb6d6c8fcde3f37e9e5a85dc2f98a2abff",
-          "sha1": "5fe542cb120741ab59a35bdc10587faa43d08fb7",
-          "md5": "a9084a987f437ea64f0fc078ab179000"
+          "size": 19909,
+          "sha512": "df03bb77de1515bc7adb48c45e2555b222238410ec1f31d3802b366eca786120585cecea35df83fdff6dabd0f31289427eb2a259adb72489eb0a62ecf781bede",
+          "sha256": "55dcf1488eeecb5682a70207fffd2cc5b7a41151dc1e367e81cc19a1f922a1df",
+          "sha1": "90ba53ce75521ce60d05c34402d2d99202a5fe48",
+          "md5": "29c7aeb7283cb482298acc67248fc935"
         }
       ]
     }

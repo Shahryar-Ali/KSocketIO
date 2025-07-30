@@ -2,12 +2,10 @@ package com.shahryar.lib.kSocketIo
 
 @OptIn(kotlinx.cinterop.ExperimentalForeignApi::class)
 actual class SocketConnector actual constructor() {
-    init {
-        KSocketUtil.initSocket()
-    }
+    private var socketIOWrapper: SocketIOWrapper? = null
     actual fun connect(url: String, nameSpace: String, config: SocketConfig) {
         println("IosMain -> connect")
-        val mConfig = mapOf(
+        val mConfig: Map<Any?, *> = mapOf(
             "headers" to config.headers,
             "connectParams" to config.connectParams,
             "reconnects" to true,
@@ -16,24 +14,25 @@ actual class SocketConnector actual constructor() {
             "forceNew" to config.forceNew,
             "timeout" to config.timeout
         )
-        socketNativeWrapper?.connect(url,nameSpace, mConfig) ?: println("IosMain -> socketNativeWrapper is null")
+        socketIOWrapper = SocketIOWrapper()
+        socketIOWrapper?.connect(url,nameSpace, mConfig) ?: println("IosMain -> socketNativeWrapper is null")
     }
 
     actual fun disconnect() {
-        socketNativeWrapper?.disconnect()
+        socketIOWrapper?.disconnect()
     }
 
     actual fun emit(event: String, data: String) {
-        socketNativeWrapper?.emit(event,data)
+        socketIOWrapper?.emit(event,data)
     }
 
     actual fun on(event: String, callback: (String?) -> Unit) {
-        socketNativeWrapper?.on(event,callback)
+        socketIOWrapper?.on(event,callback)
     }
 
     actual fun off(event: String) {
-        socketNativeWrapper?.off(event)
+        socketIOWrapper?.off(event)
     }
 
-    actual fun isConnected(): Boolean? = socketNativeWrapper?.isConnected()
+    actual fun isConnected(): Boolean? = socketIOWrapper?.isConnected()
 }

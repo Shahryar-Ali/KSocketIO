@@ -78,11 +78,11 @@
         {
           "name": "kSocket-kotlin-sources.jar",
           "url": "ksocketio-0.0.1-sources.jar",
-          "size": 5509,
-          "sha512": "59072277371850b5c0893d1d5f37abed16283e83919b820e92a5de809d130eb628315ef981993bbe2148112a629d65b60a93987dba7500cc8ff2ea0352e80d3d",
-          "sha256": "5d0aaeab7055b17eafdfb7f66e3cefce638bc0b1a39f9d918aef10281c47cbbc",
-          "sha1": "a1148c4301d416043145dc505dc22f38d81b2840",
-          "md5": "5a47a6319222c5b76eeec887e613725d"
+          "size": 5527,
+          "sha512": "bb1a05383f5352afe7354d704835bbb9b74284750f0c47eea0c7a802aa1e419be6a3cef9283887b5131daf350644989f147a2af0733cc11a2e46c95fbffc032b",
+          "sha256": "213bdd369bfc072a5803fd90ef639b9769a05cf998fcc1afeb39e79917f7c42a",
+          "sha1": "afc6a71af04ec60775c547f79dcb8f7b1a70845e",
+          "md5": "69f9b0d848384feba4b2ce8c89f11b0c"
         }
       ]
     },

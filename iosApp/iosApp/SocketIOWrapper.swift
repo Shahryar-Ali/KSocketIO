@@ -7,17 +7,18 @@
 //
 import SocketIO
 import kSocket
+import Foundation
 
-public class SocketIOWrapper: SocketNativeWrapper{
+@objc public class SocketIOWrapper: NSObject{
 
     private var manager: SocketManager?
     private var socket: SocketIOClient?
 
 
-    public func isConnected() -> Bool {
+    @objc public func isConnected() -> Bool {
         return socket?.status == .connected
     }
-    public func connect(url: String,nameSpace: String, config: [String: Any]) {
+    @objc public func connect(url: String,nameSpace: String, config: [String: Any]) {
         print("IosNative -> connect")
         var socketConfig = SocketIOClientConfiguration()
 
@@ -61,24 +62,24 @@ public class SocketIOWrapper: SocketNativeWrapper{
         self.socket = manager?.socket(forNamespace: "/" + nameSpace)
 
         if let timeout = config["timeout"] as? Int {
-            self.socket?.connect(timeoutAfter: Double(timeout)){}
+            self.socket?.connect(timeoutAfter: Double(timeout/1000)){}
         }else{
-            self.socket?.connect{}
+            self.socket?.connect(timeoutAfter: 0){}
         }
     }
 
-    public func disconnect() {
+    @objc public func disconnect() {
         print("IosNative -> disconnect")
         socket?.disconnect()
         socket = nil
         manager = nil
     }
 
-    public func emit(event: String, payload: String) {
+    @objc public func emit(event: String, payload: String) {
         socket?.emit(event, payload)
     }
 
-    public func on(event: String, callback: @escaping (String?) -> Void) {
+    @objc public func on(event: String, callback: @escaping (String?) -> Void) {
         print("IosNative -> On -> " + event)
         socket?.off(event)
         socket?.on(event) { data, ack in
@@ -87,15 +88,15 @@ public class SocketIOWrapper: SocketNativeWrapper{
         }
     }
 
-    public func off(event: String) {
+    @objc public func off(event: String) {
         socket?.off(event)
     }
 
-    public func offAllEvents() {
+    @objc public func offAllEvents() {
         socket?.removeAllHandlers()
     }
 
-    func rawDataToString(data: [Any]) -> String {
+    @objc func rawDataToString(data: [Any]) -> String {
         return data.last as? String ?? ""
     }
 }
